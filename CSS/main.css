@@ -1,0 +1,99 @@
+.side-nav-menu {
+    transition: left 400ms;
+    margin-left: -260px;
+}
+
+.nav-tab {
+    width: 260px;
+    background-color: #000;
+    height: 100vh;
+}
+
+.side-nav-menu .header {
+    width: 65px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.open-close-icon,
+i,
+.card {
+    cursor: pointer;
+}
+
+.nav-links ul li {
+    position: relative;
+    top: 300px;
+}
+
+.card .layer {
+    background-color: #ffffffb8;
+    top: 100%;
+    transition: top 500ms;
+}
+
+.card:hover .layer {
+    top: 0px;
+}
+
+.searchName,
+.searchLetter {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.searchName:focus,
+.searchLetter:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+input {
+    outline: 0;
+}
+
+form .btn,
+form .btn.disabled {
+    width: 10%;
+    background-color: transparent;
+    color: #dc3545;
+}
+
+form .btn:hover {
+    color: #fff;
+}
+
+.warn {
+    background-color: #f8d7da;
+    color: #842029;
+    padding: 15px 10px;
+    border-radius: 0.5rem;
+    margin-bottom: 30px;
+}
+
+.recipes li {
+    color: #055160;
+    background-color: #cff4fc;
+    padding: 8px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    text-wrap: nowrap;
+}
+
+.tags li {
+    color: #842029;
+    background-color: #f8d7da;
+    padding: 8px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    text-wrap: nowrap;
+}
